@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Poppins:wght@100;500&family=Roboto+Slab:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(29, 26, 26);
+}
+
+.corpse {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 4.5rem;
+    margin-left: 4.5rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(220, 20, 60) 100%);
+    width: 30rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdowns-el {
+    text-align: center;
+}
+
+.countdowns-el span {
+    font-size: 1.5rem;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.container2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0)
+}
+
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
